@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd" id="WebApp_ID" version="6.0">
+  <servlet>
+    <description></description>
+    <display-name>UpdateStu</display-name>
+    <servlet-name>UpdateStu</servlet-name>
+    <servlet-class>com.simplecrud.servlet.UpdateStu</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateStu</servlet-name>
+    <url-pattern>/UpdateStu</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>DeleteStu</display-name>
+    <servlet-name>DeleteStu</servlet-name>
+    <servlet-class>com.simplecrud.servlet.DeleteStu</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteStu</servlet-name>
+    <url-pattern>/DeleteStu</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>View</display-name>
+    <servlet-name>View</servlet-name>
+    <servlet-class>com.simplecrud.servlet.View</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>View</servlet-name>
+    <url-pattern>/View</url-pattern>
+  </servlet-mapping>
+</web-app>
